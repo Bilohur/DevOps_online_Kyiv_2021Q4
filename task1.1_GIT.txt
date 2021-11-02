@@ -1,0 +1,21 @@
+311037d (HEAD -> master, origin/master, origin/develop, develop) HEAD@{0}: merge develop: Fast-forward
+a89797e HEAD@{1}: checkout: moving from develop to master
+311037d (HEAD -> master, origin/master, origin/develop, develop) HEAD@{2}: merge styles: Merge made by the 'recursive' strategy.
+b3cfa4b (origin/images, images) HEAD@{3}: merge images: Fast-forward
+a89797e HEAD@{4}: checkout: moving from master to develop
+a89797e HEAD@{5}: reset: moving to HEAD~1
+a1f0df9 HEAD@{6}: reset: moving to HEAD~1
+b3cfa4b (origin/images, images) HEAD@{7}: reset: moving to HEAD~1
+f50d02d HEAD@{8}: merge styles: Merge made by the 'recursive' strategy.
+b3cfa4b (origin/images, images) HEAD@{9}: merge images: Fast-forward
+3512864 HEAD@{10}: checkout: moving from styles to master
+9e162c4 (origin/styles, styles) HEAD@{11}: commit: styles changed
+d0f2e20 HEAD@{12}: commit: Styles added
+a89797e HEAD@{13}: checkout: moving from develop to styles
+a89797e HEAD@{14}: checkout: moving from images to develop
+b3cfa4b (origin/images, images) HEAD@{15}: commit: image source added
+a1f0df9 HEAD@{16}: commit: "Folder with images added"
+a89797e HEAD@{17}: checkout: moving from develop to images
+a89797e HEAD@{18}: commit: created index.html
+3512864 HEAD@{19}: checkout: moving from master to develop
+3512864 HEAD@{20}: commit (initial): Initial commit
