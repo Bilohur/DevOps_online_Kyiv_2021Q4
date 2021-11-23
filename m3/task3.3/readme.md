@@ -1,3 +1,7 @@
+task 3.3
+Static and dynamic(RIP) routing
+
+
 3.2.8 
 There is no connection between the servers, as they appeared in different networks after changing the mask
 
