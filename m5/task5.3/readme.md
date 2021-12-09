@@ -13,4 +13,11 @@ pstree command show processes in such way that you can immediately see which pro
 ![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3.2.png)
 ### 3. What is a proc file system?
 pcocfs is virtual file system created on fly when system boots and is disappears while shutdown. <br/>
-It contains useful information about the processes that are currently running, it is regarded as control and information center for kernel.
+It contains useful information about the processes that are currently running, it is regarded as control and information center for kernel.<br/>
+It also provides communication medium between kernel space and user space.
+### 4. Print information about the processor (its type, supported technologies, etc.).
+``cat /proc/cpuinfo`` 
+``lscpu``
+![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3.4.png)
+![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3.4(1).png)
+field 'flags' shows supported technologies, processor type is shown at 'model name' field
