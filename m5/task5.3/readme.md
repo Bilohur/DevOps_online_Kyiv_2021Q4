@@ -28,9 +28,8 @@ execution, the group owner of this process, etc.
 ``ps -o user,pid,group,args,%cpu,%mem``
 ### 6. How to define kernel processes and user processes?
 All kernel threads are descendants of kthreadd (pid 2), which is spawned by the kernel (pid 0) during boot.
-
-Defining the kernel processes could be done with `ps -aux` command - name of this processes will be between square brackets.
-
+![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3.6(1).png)
+Defining the kernel processes could be done with `ps -aux` command - name of these processes will be between square brackets.
 ![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3.6.png)
 
 7. Print the list of processes to the terminal. Briefly describe the statuses of the processes.
