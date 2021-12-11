@@ -83,23 +83,57 @@ S: Status of the process. (See the list below for the values this field can take
 TIME+: Total CPU time used by the task in hundredths of a second.<br/>
 COMMAND: The command name or command line (name + options).<br/>
 
-12. Display the processes of the specific user using the top command.
+### 11. Display the processes of the specific user using the top command.
+``top -u username``
+![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3.11.png)
 
-
-12. What interactive commands can be used to control the top command? Give a couple of
+### 12. What interactive commands can be used to control the top command? Give a couple of
 examples.
-13. Sort the contents of the processes window using various parameters (for example, the
-amount of processor time taken up, etc.)
-14. Concept of priority, what commands are used to set priority?
-15. Can I change the priority of a process using the top command? If so, how?
-16. Examine the kill command. How to send with the kill command
-process control signal? Give an example of commonly used signals.
-17. Commands jobs, fg, bg, nohup. What are they for? Use the sleep, yes command to
-demonstrate the process control mechanism with fg, bg.
-Part2
-1. Check the implementability of the most frequently used OPENSSH commands in the MS
-Windows operating system. (Description of the expected result of the commands +
-screenshots: command – result should be presented)
+-A - show def, job, mem and usr panels, switch -a
+![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3.12.png)
+-z - color mode
+![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3.12(1).png)
+-W - save current interactive settings <br/>
+-u - filter processes by user <br/>
+-k - kill process by id <br/>
+-F - choose fields for displaying<br/>
+-y - select the process by which the sorting will be performed<br/>
+-i - show only processes, which uses cpu resources
+![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3.12(2).png)
+### 13. Sort the contents of the processes window using various parameters (for example, the amount of processor time taken up, etc.)
+To sort processes using definite parameter press `F` and choose needed parameter by pressing `s`. For example sorting by RAM usage:
+![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3.13.png)
+Sorting by amount of processor time taken up:
+![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3.13(1).png)
+![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3.13(2).png)
+### 14. Concept of priority, what commands are used to set priority?
+Priority means that processor time will be given more to one process over another. Each process can have priority from -20 (min) to +19(max). To reduce it you don't have to be su, but to increase - must. <br/>
+There is 3 ways to show priority: with `ps -o pid, nice -C mysql`, `ps -o pid, nice 697` or top.<br/>
+To set priority nice command is used, example: increase: `nice -n 15 top`, reduce: `renice 11 -p 1234`.
+
+### 15. Can I change the priority of a process using the top command? If so, how?
+Yes, by pressing shift+f and then r.
+![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3.14.png)
+### 16. Examine the kill command. How to send with the kill command process control signal? Give an example of commonly used signals.
+To send process control signal  need to specify signal after command `kill` and pid. Default signal is SIGTERM - lets program to finish subprocesses and free all resources. <br/>
+SIGINT - interrupt process, which will properly finish all its actions(Ctrl+ c). <br/>
+SIGQUIT - quit and save process to memory dump, process could finish or ignore this signal(Ctrl + /). <br/>
+SIGHUP - tells process, that connection with control terminal is broken, generally, with internet. <br/>
+SIGKILL - immeditely terminates the process, cannot be ignored.<br/>
+SIGSTOP - stop process for resumption later.<br/>
+SIGTSPT - pause process, can be ignored (Ctrl+ c). <br/>
+SIGCONT - reload process which was stopped or paused with TSPT.
+![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3.15.png)
+
+### 17. Commands jobs, fg, bg, nohup. What are they for? Use the sleep, yes command to  demonstrate the process control mechanism with fg, bg.
+jobs - show list of the tasks that is up and running, fg - to move job into foregroung(even if it is pauased), bg - to resume job in background, nohup - start processes that will be disconnected from the terminal if the terminal is closed. 
+![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3.16.png)
+![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3.17.png)
+
+# Part2
+### 1. Check the implementability of the most frequently used OPENSSH commands in the MS Windows operating system. (Description of the expected result of the commands + screenshots: command – result should be presented)
+
+
 2. Implement basic SSH settings to increase the security of the client-server connection (at least
 3. List the options for choosing keys for encryption in SSH. Implement 3 of them.
 4. Implement port forwarding for the SSH client from the host machine to the guest Linux
