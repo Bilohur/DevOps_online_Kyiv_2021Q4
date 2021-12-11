@@ -32,13 +32,60 @@ All kernel threads are descendants of kthreadd (pid 2), which is spawned by the 
 Defining the kernel processes could be done with `ps -aux` command - name of these processes will be between square brackets.
 ![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3.6.png)
 
-7. Print the list of processes to the terminal. Briefly describe the statuses of the processes.
-What condition are they in, or can they be arriving in?
-8. Display only the processes of a specific user.
-9. What utilities can be used to analyze existing running tasks (by analyzing the help for the ps
+### 7. Print the list of processes to the terminal. Briefly describe the statuses of the processes. What condition are they in, or can they be arriving in?
+`ps -aux` or `ps -eo pid,comm,stat`
+![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3.7.png)
+D – Uninterruptible sleep (usually a critical system process, a process that cannot be killed without rebooting)
+R – Running or runable (on run queue)
+S – Interruptible sleep (waiting for an event to complete)
+T – Stopped, either by a job control signal or because it is being traced.
+Z – Defunct (“zombie”) process, terminated but not closed by the parent process that created it
+
+### 8. Display only the processes of a specific user.
+
+`ps -aux | grep user` or `ps -au user`
+![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3.8.png)
+
+### 9. What utilities can be used to analyze existing running tasks (by analyzing the help for the ps
 command)?
-10. What information does top command display?
+ps show only running process:
+![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3.9.png)
+In `man ps` paragraph SEE ALSO tells about another 4 utilities - pgrep(1), pstree(1), top(1), proc(5) for analyzing running tasks
+
+### 10. What information does top command display?
+![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3.10.png)
+At the top of the screen displayed:<br/>
+**System Uptime and Load Averages**: This is a single line that contains the program name (top), the current time, length of time since last boot, total number of users and the system load average over the last one, five and fifteen minutes.
+
+**TASK and CPU States**: This consists of a minimum of two lines. The first line shows the total tasks or threads (depends on the state of the Threads-mode toggle). This is then further classified into either running, sleeping, stopped or zombie (zombie processes are processes that have been terminated or are finished executing but have not been properly disposed). The second line shows CPU state percentages since the last refresh. The state percentages refer to:
+us, user : time spent running user processes that haven’t had their priority changed with the ‘nice’ command
+sy, system : time spent running kernel processes
+ni, nice : time spent running user processes that have been ‘niced’
+wa, IO-wait : time waiting for I/O completion
+hi : time spent on hardware interrupts
+si : time spent on software interrupts
+st : time taken from this virtual machine by the hypervisor.
+
+**Memory Usage**: This consists of two lines which show the memory use in kibibytes(KiB). Recall that 1 KiB = 1024 bytes, and 1 MiB = 1024 KiB, and so on (in contrast to 1 KB = 1000 bytes, and 1 MB = 1000 KB). Line 1 shows physical memory while line 2 shows virtual memory (swap).
+https://www.maketecheasier.com/linux-top-explained/
+
+Columns info can be shown be typing F and toggles for display:<br/>
+PID: Process ID.<br/>
+USER: The owner of the process.<br/>
+PR: Process priority.<br/>
+NI: The nice value of the process.<br/>
+VIRT: Amount of virtual memory used by the process.<br/>
+RES: Amount of resident memory used by the process.<br/>
+SHR: Amount of shared memory used by the process.<br/>
+S: Status of the process. (See the list below for the values this field can take).<br/>
+%CPU: The share of CPU time used by the process since the last update.<br/>
+%MEM: The share of physical memory used.<br/>
+TIME+: Total CPU time used by the task in hundredths of a second.<br/>
+COMMAND: The command name or command line (name + options).<br/>
+
 12. Display the processes of the specific user using the top command.
+
+
 12. What interactive commands can be used to control the top command? Give a couple of
 examples.
 13. Sort the contents of the processes window using various parameters (for example, the
