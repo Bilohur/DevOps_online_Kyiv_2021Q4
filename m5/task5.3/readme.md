@@ -139,7 +139,7 @@ jobs - show list of the tasks that is up and running, fg - to move job into fore
 ### 2. Implement basic SSH settings to increase the security of the client-server connection (at least
 * Changing default ssh-port<br/>
 ![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh.png) <br/>
-* Generate a Key Pair for connection<
+* Generate a Key Pair for connection <br/>
 ![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh2.png) <br/>
 * Turn off password authentication <br/>
 ![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh3.png)
@@ -164,13 +164,13 @@ jobs - show list of the tasks that is up and running, fg - to move job into fore
 ![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh5.png)
 
 3. List the options for choosing keys for encryption in SSH. Implement 3 of them. <br/>
- -t dsa | ecdsa | ecdsa-sk | ed25519 | ed25519-sk | rsa
-             Specifies the type of key to create.  The possible values are “dsa”, “ecdsa”, “ecdsa-sk”, “ed25519”, “ed25519-sk”, or “rsa”.
-![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2sshkeys1.png
-![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2sshkeys2.png
+ -t dsa | ecdsa | ecdsa-sk | ed25519 | ed25519-sk | rsa <br/>
+Specifies the type of key to create.  The possible values are “dsa”, “ecdsa”, “ecdsa-sk”, “ed25519”, “ed25519-sk”, or “rsa”. <br/>
+![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2sshkeys1.png) <br/>
+![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2sshkeys2.png) <br/>
 
-4. Implement port forwarding for the SSH client from the host machine to the guest Linux.
-![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3na2t.png
+4. Implement port forwarding for the SSH client from the host machine to the guest Linux. <br/>
+![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3na2t.png) <br/>
 
 ![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3nat3.png
 
