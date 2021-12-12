@@ -141,14 +141,14 @@ jobs - show list of the tasks that is up and running, fg - to move job into fore
 ![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh.png) <br/>
 * Generate a Key Pair for connection <br/>
 ![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh2.png) <br/>
-* Turn off password authentication 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
+* Turn off password authentication  <br/>
 ![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh3.png) <br/>
 * Disallow empty passwords connections <br/>
 ![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh4.png) <br/>
 * Use ssh protocol ver. 2 <br/>
 ![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh5.png) <br/>
 ![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh.png
-) 
+) <br/>
 * Generate a Key Pair for connection<br/>
 ![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh2.png
 )
@@ -160,7 +160,6 @@ jobs - show list of the tasks that is up and running, fg - to move job into fore
 ![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh5.png)
 * Restrict access from another networks except one subnet<br/>
 ![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh5.png)
-
 ### 3. List the options for choosing keys for encryption in SSH. Implement 3 of them. <br/>
  -t dsa | ecdsa | ecdsa-sk | ed25519 | ed25519-sk | rsa <br/>
 Specifies the type of key to create.  The possible values are “dsa”, “ecdsa”, “ecdsa-sk”, “ed25519”, “ed25519-sk”, or “rsa”. <br/>
@@ -171,3 +170,6 @@ Specifies the type of key to create.  The possible values are “dsa”, “ecds
 ![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3na2t.png) <br/>
 ![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3nat3.png) <br/>
 ### 5*. Intercept (capture) traffic (tcpdump, wireshark) while authorizing the remote client on the server using ssh, telnet, rlogin. Analyze the result.
+![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53tcpdumptel.png) <br/>
+![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53tcpdump.png) <br/>
+![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/wiresh.png) <br/>
