@@ -170,6 +170,6 @@ Specifies the type of key to create.  The possible values are “dsa”, “ecds
 ![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3na2t.png) <br/>
 ![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3nat3.png) <br/>
 ### 5*. Intercept (capture) traffic (tcpdump, wireshark) while authorizing the remote client on the server using ssh, telnet, rlogin. Analyze the result.
-![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53tcpdumptel.png) <br/>
-![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53tcpdump.png) <br/>
+![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3tcpdumptel.png) <br/>
+![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3tcpdump.png) <br/>
 ![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/wiresh.png) <br/>
