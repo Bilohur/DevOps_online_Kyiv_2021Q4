@@ -84,21 +84,21 @@ TIME+: Total CPU time used by the task in hundredths of a second.<br/>
 COMMAND: The command name or command line (name + options).<br/>
 
 ### 11. Display the processes of the specific user using the top command.
-``top -u username``
+``top -u username``<br/>
 ![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3.11.png)
 
 ### 12. What interactive commands can be used to control the top command? Give a couple of
 examples.
 -A - show def, job, mem and usr panels, switch -a
-![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3.12.png)
 -z - color mode
-![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3.12(1).png)
 -W - save current interactive settings <br/>
 -u - filter processes by user <br/>
 -k - kill process by id <br/>
 -F - choose fields for displaying<br/>
 -y - select the process by which the sorting will be performed<br/>
 -i - show only processes, which uses cpu resources
+![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3.12.png)
+![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3.12(1).png) <br/>
 ![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3.12(2).png)
 ### 13. Sort the contents of the processes window using various parameters (for example, the amount of processor time taken up, etc.)
 To sort processes using definite parameter press `F` and choose needed parameter by pressing `s`. For example sorting by RAM usage:
