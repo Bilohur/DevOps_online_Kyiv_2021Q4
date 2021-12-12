@@ -1,4 +1,4 @@
-# TASK 5.3
+# TASK 5.3 Bilohur Oleksii
 ## Part 1
 ### 1. How many states could has a process in Linux?
 There is 5 possible process states in Linux:
@@ -102,8 +102,8 @@ examples.
 ![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3.12(2).png)
 ### 13. Sort the contents of the processes window using various parameters (for example, the amount of processor time taken up, etc.)
 To sort processes using definite parameter press `F` and choose needed parameter by pressing `s`. For example sorting by RAM usage:
-![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3.13.png)
-Sorting by amount of processor time taken up:
+![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3.13.png)<br/>
+Sorting by amount of processor time taken up:<br/>
 ![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3.13(1).png)
 ![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task5.3.13(2).png)
 ### 14. Concept of priority, what commands are used to set priority?
@@ -137,18 +137,18 @@ jobs - show list of the tasks that is up and running, fg - to move job into fore
 ![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p22.png)
 
 ### 2. Implement basic SSH settings to increase the security of the client-server connection (at least
-* Changing default ssh-port
-![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh.png
-* Generate a Key Pair for connection
-![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh2.png
+* Changing default ssh-port<br/>
+![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh.png)br/>
+* Generate a Key Pair for connection<
+![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh2.png)<br/>
 * Turn off password authentication
-![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh3.png
-* Disallow empty passwords connections
-![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh4.png
-* Use ssh protocol ver. 2
-![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh5.png
-* Restrict access from another networks except one subnet
-![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh5.png
+![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh3.png)
+* Disallow empty passwords connections<br/>
+![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh4.png) br/>
+* Use ssh protocol ver. 2<br/>
+![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh5.png)br/>
+* Restrict access from another networks except one subnet<br/>
+![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh5.png)
 
 3. List the options for choosing keys for encryption in SSH. Implement 3 of them. <br/>
  -t dsa | ecdsa | ecdsa-sk | ed25519 | ed25519-sk | rsa
