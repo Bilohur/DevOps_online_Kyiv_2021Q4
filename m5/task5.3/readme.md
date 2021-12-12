@@ -138,27 +138,28 @@ jobs - show list of the tasks that is up and running, fg - to move job into fore
 
 ### 2. Implement basic SSH settings to increase the security of the client-server connection (at least
 * Changing default ssh-port<br/>
-<<<<<<< HEAD
-![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh.png)br/>
+![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh.png) <br/>
 * Generate a Key Pair for connection<
-![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh2.png)<br/>
-* Turn off password authentication
+![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh2.png) <br/>
+* Turn off password authentication <br/>
 ![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh3.png)
-* Disallow empty passwords connections<br/>
+* Disallow empty passwords connections <br/>
 ![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh4.png) br/>
-* Use ssh protocol ver. 2<br/>
-![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh5.png)br/>
-=======
+* Use ssh protocol ver. 2 <br/>
+![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh5.png) <br/>
 ![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh.png
-)* Generate a Key Pair for connection<br/>
+) 
+* Generate a Key Pair for connection<br/>
 ![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh2.png
-)* Turn off password authentication<br/>
+)
+* Turn off password authentication<br/>
 ![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh3.png
-)* Disallow empty passwords connections<br/>
+)
+* Disallow empty passwords connections<br/>
 ![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh4.png
-)* Use ssh protocol ver. 2<br/>
+)
+* Use ssh protocol ver. 2<br/>
 ![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh5.png)
->>>>>>> 185c649e9a6675d5dcf1e0c26680aed565d8cbdd
 * Restrict access from another networks except one subnet<br/>
 ![image](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m5/task5.3/Screenshots/task53p2ssh5.png)
 
