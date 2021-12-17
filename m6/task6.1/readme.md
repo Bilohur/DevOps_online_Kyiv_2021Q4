@@ -1,8 +1,11 @@
-** Networking with Linux
-*** 1. Create virtual machines connection according to figure 1:
+## Networking with Linux
+### 1. Create virtual machines connection according to figure 1:
+![img](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m6/task6.1/Screenshots/box1.png)
+![img](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m6/task6.1/Screenshots/box2.png)
+![img](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m6/task6.1/Screenshots/box3.png)
+![img](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m6/task6.1/Screenshots/box_4port_forwaring_rules.png)
 
-
-2. VM2 has one interface (internal), VM1 has 2 interfaces (NAT and internal). Configure all network interfaces in order to make VM2 has an access to the Internet (iptables, forward, masquerade).
+### 2. VM2 has one interface (internal), VM1 has 2 interfaces (NAT and internal). Configure all network interfaces in order to make VM2 has an access to the Internet (iptables, forward, masquerade).
 Adding ip address VM1 and VM2:
 
 VM1: `sudo ip link set enp0s8 up` and `sudo ip addr add 192.168.1.1/255.255.255.0 broadcast 192.168.1.255 dev enp0s8` <br/>
