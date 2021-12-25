@@ -1,0 +1,39 @@
+#!/bin/bash
+function display_ip_and_hosts_nmap(){
+	if ! command -v nmap &> /dev/null
+	then
+	    echo "nmap could not be found, installing"
+	    sudo apt-get update
+	    sudo apt-get install nmap
+	fi
+}
+
+
+function list_open_tcp(){
+	for PORT in {20..1024}; do
+	  timeout 1 bash -c "</dev/tcp/127.0.0.1/$PORT" &>/dev/null &&  echo "port $PORT is open"
+	done
+}
+
+
+function show_options(){
+	echo "Choose from available parameters:"
+		echo "--all - display the IP addresses and symbolic names of all hosts in the current subnet."
+		echo "--target - display a list of open system TCP ports."
+}
+
+if [[ $# == 0 ]] 
+	then 
+		show_options
+		exit 1 
+elif [ "$1" == "--all" ]
+	then 		
+		display_ip_and_hosts_nmap
+elif [ "$1" == "--target" ]q
+	then		
+		list_open_tcp
+else 
+	echo "Invalid parameters"
+	show_options
+fi
+
