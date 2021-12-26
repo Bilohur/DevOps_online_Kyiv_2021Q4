@@ -6,6 +6,7 @@ function display_ip_and_hosts_nmap(){
 	    sudo apt-get update
 	    sudo apt-get install nmap
 	fi
+	nmap -sn 192.168.171.1/24
 }
 
 
@@ -29,7 +30,7 @@ if [[ $# == 0 ]]
 elif [ "$1" == "--all" ]
 	then 		
 		display_ip_and_hosts_nmap
-elif [ "$1" == "--target" ]q
+elif [ "$1" == "--target" ]
 	then		
 		list_open_tcp
 else 
