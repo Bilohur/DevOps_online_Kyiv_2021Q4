@@ -1,8 +1,8 @@
 ### Task 8.1
 
 ##Results
-![img](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m6/task8.1/full_output.png)
-![img](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m6/task8.1/tests_passed.png)
+![img](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m8/task8.1/full_output.png)
+![img](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m8/task8.1/tests_passed.png)
 
 ##Code
 # 
