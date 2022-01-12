@@ -12,7 +12,7 @@ function list_open_tcp(){
 
 if [[ $# == 0 ]] 
 	then 
-		echo "You have to give at least one parameter."
+		echo "Usage: path to the syncing directory + path to the directory where the copies of the files will be stored."
 		exit 1 
 elif [ "$1" == "--all" ]
 	then
