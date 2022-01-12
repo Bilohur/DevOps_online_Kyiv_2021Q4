@@ -1,11 +1,11 @@
 ### Task 8.1
 
-## Results
-![img](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m8/task8.1/full_output.png)
-![img](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m8/task8.1/tests_passed.png)
+##Results
+![img](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m6/task8.1/full_output)
+![img](https://github.com/Bilohur/DevOps_online_Kyiv_2021Q4/blob/master/m6/task8.1/tests_passed)
 
-## Code
-
+##Code
+# 
 ```
 def validate_param(input):
     try:
@@ -55,8 +55,8 @@ if __name__ == '__main__':
 
     square_print(a, b, c, solv_square(a, b, c))
 ```
-## Tests:
 
+##Tests:
 ```
 import unittest
 import solve_square_equation
@@ -80,5 +80,4 @@ class TestSolve(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
 ```
